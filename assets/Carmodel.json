@@ -1,0 +1,50 @@
+[
+    {
+        "Model": "Scorpio",
+        "brand": "Mahindra"
+    },
+    {
+        "Model": "Thar",
+        "brand": "Mahindra"
+    },
+    {
+        "Model": "Xuv",
+        "brand": "Mahindra"
+    },
+    {
+        "Model": "Bolero",
+        "brand": "Mahindra"
+    },
+    {
+        "Model": "i20",
+        "brand": "hyundai"
+    },
+    {
+        "Model": "kona",
+        "brand": "hyundai"
+    },
+    {
+        "Model": "Creta",
+        "brand": "hyundai"
+    },
+    {
+        "Model": "Exter",
+        "brand": "hyundai"
+    },
+    {
+        "Model": "Fronx",
+        "brand": "Suzuki"
+    },
+    {
+        "Model": "Brezza",
+        "brand": "Suzuki"
+    },
+    {
+        "Model": "Baleno",
+        "brand": "Suzuki"
+    },
+    {
+        "Model": "Alto",
+        "brand": "Suzuki"
+    }
+]

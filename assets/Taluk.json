@@ -1,0 +1,106 @@
+[
+    {
+        "taluk": "Kolathur",
+        "CityId": "Chennai"
+    },
+    {
+        "taluk": "Koyambedu",
+        "CityId": "Chennai"
+    },
+    {
+        "taluk": "Vadapalani",
+        "CityId": "Chennai"
+    },
+    {
+        "taluk": "Chettipalayam",
+        "CityId": "Coimbatore"
+    },
+    {
+        "taluk": "Palladam",
+        "CityId": "Coimbatore"
+    },
+    {
+        "taluk": "Palani",
+        "CityId": "Coimbatore"
+    },
+    {
+        "taluk": "Coutralam",
+        "CityId": "Tenkasi"
+    },
+    {
+        "taluk": "Tenkasi",
+        "CityId": "Tenkasi"
+    },
+    {
+        "taluk": "VeerakeralamPudur",
+        "CityId": "Tenkasi"
+    },
+    {
+        "taluk": "varkala",
+        "CityId": "Trivandram"
+    },
+    {
+        "taluk": "Nedumangad",
+        "CityId": "Trivandram"
+    },
+    {
+        "taluk": "trivandram",
+        "CityId": "Trivandram"
+    },
+    {
+        "taluk": "Coachin",
+        "CityId": "Coachin"
+    },
+    {
+        "taluk": "Ernagulam",
+        "CityId": "Coachin"
+    },
+    {
+        "taluk": "Kotayam",
+        "CityId": "Kottayam"
+    },
+    {
+        "taluk": "Kotayam Village",
+        "CityId": "Kottayam"
+    },
+    {
+        "taluk": "bangalore",
+        "CityId": "bangalore"
+    },
+    {
+        "taluk": "bangalore Village",
+        "CityId": "bangalore"
+    },
+    {
+        "taluk": "Mysore",
+        "CityId": "Mysore"
+    },
+    {
+        "taluk": "Mysore Village",
+        "CityId": "Mysore"
+    },
+    {
+        "taluk": "Mangalore",
+        "CityId": "Mangalore"
+    },
+    {
+        "taluk": "Mangalore Village",
+        "CityId": "Mangalore"
+    },
+    {
+        "taluk": "Visakapattanam",
+        "CityId": "Visakapattanam"
+    },
+    {
+        "taluk": "Visakapattanam Village",
+        "CityId": "Visakapattanam"
+    },
+    {
+        "taluk": "Hydrabad",
+        "CityId": "Hydrabad"
+    },
+    {
+        "taluk": "Hydrabad Village",
+        "CityId": "Hydrabad"
+    }
+]
