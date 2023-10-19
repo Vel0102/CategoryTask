@@ -1,0 +1,18 @@
+[
+    {
+        "State": "TamilNadu",
+        "StateId": 1
+    },
+    {
+        "State": "Kerala",
+        "StateId": 2
+    },
+    {
+        "State": "Karnataka",
+        "StateId": 3
+    },
+    {
+        "State": "Andhra",
+        "StateId": 4
+    }
+]

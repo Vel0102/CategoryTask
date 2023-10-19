@@ -1,0 +1,57 @@
+[
+    {
+        "City": "Chennai",
+        "StateId": "TamilNadu",
+        "CityId": 1
+    },
+    {
+        "City": "Coimbatore",
+        "StateId": "TamilNadu",
+        "CityId": 2
+    },
+    {
+        "City": "Tenkasi",
+        "StateId": "TamilNadu",
+        "CityId": 3
+    },
+    {
+        "City": "Trivandram",
+        "StateId": "Kerala",
+        "CityId": 4
+    },
+    {
+        "City": "Coachin",
+        "StateId": "Kerala",
+        "CityId": 5
+    },
+    {
+        "City": "Kottayam",
+        "StateId": "Kerala",
+        "CityId": 6
+    },
+    {
+        "City": "bangalore",
+        "StateId":  "Karnataka",
+        "CityId": 7
+    },
+    {
+        "City": "Mysore",
+        "StateId": "Karnataka",
+        "CityId": 8
+    },
+    {
+        "City": "Mangalore",
+        "StateId": "Karnataka",
+        "CityId": 11
+    },
+    {
+        "City": "Visakapattanam",
+        "StateId": "Andhra",
+        "CityId": 9
+    },
+    {
+        "City": "Hydrabad",
+        "StateId": "Andhra",
+        "CityId": 10
+    }
+]

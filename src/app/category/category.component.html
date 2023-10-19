@@ -1,0 +1,116 @@
+<div class="row">
+    <div class="col-4"></div>
+    <div class="col-4">
+
+        <!-- State dropdown code starts -->
+
+        <div style="margin-top: 30px;">
+            <label><strong>Select State</strong> <span class="text-danger">*</span></label>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example" [(ngModel)]="ngState"
+                (change)="GetCityChange()" name="Statevalid" #Statevalid="ngModel" id="state" >
+                <option selected disabled value="{{0}}">Select State</option>
+                <option value="{{s.State}}" *ngFor="let s of StateList">{{s.State}}</option>
+            </select>
+        </div>
+        <!-- State dropdown code Ends -->
+
+        <!-- City dropdown code starts -->
+        <div style="margin-top:30px;">
+            <label><strong> Select State</strong> <span class="text-danger">*</span></label>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example" [(ngModel)]="ngCity"
+                (change)="ChangeTaluk()" name="Cityvalid" #Cityvalid="ngModel" id="city">
+                <option selected disabled value="{{0}}">Select District</option>
+                <option value="{{c.City}}" *ngFor="let c of ShowCity[0]">{{c.City}}</option>
+            </select>
+        </div>
+        <!-- City dropdown code Ends -->
+
+        <!-- Village dropdown code starts -->
+        <div style="margin-top:30px;">
+            <label><strong> Select Taluk </strong> <span class="text-danger">*</span></label>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example" [(ngModel)]="ngTaluk"
+                name="talukvalid" #talukvalid="ngModel" id="taluk">
+                <option selected disabled value="{{0}}">Select Taluk</option>
+                <option value="{{t.taluk}}" *ngFor="let t of ShowTaluk[0]">{{t.taluk}}</option>
+            </select>
+        </div>
+        <!-- Village dropdown code Ends -->
+
+        <!-- Car dropdown code starts -->
+        <div class="form-check mt-3">
+            <div style="margin-left: -28px;">
+                <label><strong> Select Car Brand </strong> <span class="text-danger">*</span></label>
+            </div>
+            <div>
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                    [(ngModel)]="ngCar" value="Mahindra" (change)="ShowModels()">
+                <label class="form-check-label" for="flexRadioDefault2">
+                    Mahindra
+                </label>
+            </div>
+            <div>
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3"
+                    [(ngModel)]="ngCar" value="hyundai" (change)="ShowModels()">
+                <label class="form-check-label" for="flexRadioDefault3">
+                    Hyundai
+                </label>
+            </div>
+            <div>
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4"
+                    [(ngModel)]="ngCar" value="Suzuki" (change)="ShowModels()">
+                <label class="form-check-label" for="flexRadioDefault4">
+                    Suzuki
+                </label>
+            </div>
+
+        </div>
+
+        <div style="margin-top:30px;">
+            <label><strong> Select Model</strong> <span class="text-danger">*</span></label>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example" [(ngModel)]="ngModel"
+                name="modelvalid" #modelvalid="ngModel" id="model">
+                <option selected disabled value="{{0}}">Select Model</option>
+                <option value="{{m.Model}}" *ngFor="let m of ShowModelsList[0]">{{m.Model}}</option>
+            </select>
+        </div>
+        <!-- Car dropdown code Ends -->
+
+
+        <button type="button" class="btn btn-primary mt-5" style="margin-left: 200px;" (click)=Submit()>Submit</button>
+    </div>
+
+    <div class="col-4"></div>
+
+
+    <!-- Table code starts  -->
+    <div class="row mt-5">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>State</th>
+                        <th>City</th>
+                        <th>Village</th>
+                        <th>Car Brand</th>
+                        <th>Car Model</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let g of GridList">
+                        <td>{{g.State}}</td>
+                        <td>{{g.City}}</td>
+                        <td>{{g.Taluk}}</td>
+                        <td>{{g.Car}}</td>
+                        <td>{{g.Model}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-3"></div>
+    </div>
+    <!-- Table code Ends  -->
+
+
+
+</div>
